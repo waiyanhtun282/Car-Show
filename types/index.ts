@@ -10,10 +10,11 @@ export interface CustomButtonProps {
     handleClick?: MouseEventHandler<HTMLButtonElement>;
   }
 
-export interface SearchManufactuerProps {
-  manufacturer:string,
-  setManufacturer:() =>void;
-}
+
+  export interface SearchManuFacturerProps {
+    manufacturer: string;
+    setManuFacturer: (manufacturer: string) => void;
+  }
 
 export interface CarProps {
   city_mpg:number;
